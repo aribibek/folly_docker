@@ -1,6 +1,6 @@
 
 Dockerfile to build and install [folly](https://github.com/facebook/folly).
-Edit the Dockerfile to change the version of folly to build.
+Folly version can be changed in Dockerfile.
 
 Usage:
 
@@ -8,3 +8,5 @@ Usage:
 cd docker/
 docker build --rm -t aribibek/folly .
 ```
+
+Based on [this](https://bitbucket.org/liuzirui/fbthrift-example/src/master/docker/).

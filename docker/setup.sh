@@ -29,7 +29,7 @@ apt install -yq \
   libkrb5-dev \
   libsodium-dev && apt clean
 
-# get folly version from script argument or use a default version
+# get folly version from script argument or use the default version
 VERS=${1:-v2020.01.06.00}
 
 git clone --branch ${VERS} https://github.com/facebook/folly.git
